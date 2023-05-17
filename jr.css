@@ -1,0 +1,40 @@
+body
+{
+margin: 0;}
+
+a.active
+{text-decoration:none; 
+Color:black; 
+font-size:22pt;
+Padding: 1pt;
+border-radius: 2pt;}
+a
+{text-decoration:none;
+Color:black;
+font-size:22pt;
+padding:20pt;
+border-radius: 2pt}
+ul
+{list-style-type:none;}
+
+li
+{display:inline;
+width:200px;
+}
+
+
+li a:hover
+{color:black;
+font-size:23pt;
+font-weight:bold;
+padding:3pt;
+Background-color:lightblue;}
+
+ul li a.active
+{cursor:pointer;}
+
+ul li a
+{cursor:pointer;}
+
+.sample
+{background-color:gray;}
